@@ -1,0 +1,110 @@
+body {
+  color: rgb(255, 255, 255);
+  background-color: rgb(11, 11, 1);
+}
+
+#seccion1, #Encabezado {
+  font-size: 2rem;
+  text-align: center;
+  background-image: url(https://media.istockphoto.com/id/1866609189/es/foto/textura-abstracta-de-part%C3%ADculas-de-vidrio-roto.jpg?s=612x612&w=is&k=20&c=vASBbbx0AMMclqLsPY7997O4jZxnu0RuQ-gJR4l8vpE=);
+  background-size: cover;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+#seccion2, #seccion3 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#grid-marcas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.marca {
+  background-color: rgba(60, 58, 58, 0.9);
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.marca img {
+  width: 80%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.marca a {
+  background-color: #757775;
+  color: white;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #757775;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+}
+
+.marca a:hover {
+  transform: scale(1.1);
+}
+
+#listado {
+  background-color: #f2f2f2;
+  color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1rem;
+  border: 2px solid #3498db;
+  width: 100%;
+}
+
+#listado option {
+  background-color: #f2f2f2;
+  color: #040404;
+}
+
+#listado option:hover {
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+form {
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1rem;
+  border: 2px solid #3498db;
+  width: 100%;
+  max-width: 500px;
+}
+
+form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+form input[type="text"], form select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #f2f2f2;
+  color: #333;
+}
